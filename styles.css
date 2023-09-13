@@ -1,0 +1,33 @@
+.users-row {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+.users-row div {
+  margin-bottom: 10px;
+}
+
+.users-row a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.user-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.user-card a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px; 
+}
