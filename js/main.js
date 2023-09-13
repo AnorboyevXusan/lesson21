@@ -7,10 +7,10 @@ getData("https://jsonplaceholder.typicode.com/users", (res, status) => {
 
   if (status === 200) {
     res.forEach((user) => {
-      const userCard = document.createElement("div"); // Yangi div yaratish
-      userCard.classList.add("user-card"); // CSS klass qo'shish (stil berish uchun)
+      const userCard = document.createElement("div");
+      userCard.classList.add("user-card"); 
 
-      const userNameLink = document.createElement("a"); // Ism link yaratish
+      const userNameLink = document.createElement("a");
       userNameLink.href = `posts.html?userId=${user.id}`;
       userNameLink.textContent = `${user.id} ${user.name}`;
 
